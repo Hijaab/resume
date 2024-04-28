@@ -1,0 +1,174 @@
+h1 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: x-large;
+}
+
+h3 {
+  color: #737373;
+  font-weight: normal;
+}
+
+.bg_img {
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.heading {
+  color: #0fb7f4;
+}
+
+.sub-head {
+  letter-spacing: 3px;
+  font-size: larger;
+  font-weight: lighter;
+  color: #737373;
+}
+
+/* line start */
+
+.line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: -60px;
+}
+.main-line {
+  height: 2px;
+  background-color: #d3d3d3;
+  flex-grow: 1;
+}
+.highlight {
+  width: 50px;
+  height: 5px;
+  background-color: #0fb7f4;
+}
+
+/* line end */
+
+.about-text {
+  font-family: "Inter", sans-serif;
+  line-height: 22px;
+}
+.projects-text {
+  font-family: "Inter", sans-serif;
+  line-height: 22px;
+}
+
+.skills {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  font-size: larger;
+  color: #0fb7f4;
+  font-weight: bold;
+}
+
+.skill-container {
+  margin-top: 5px;
+}
+.skill-name {
+  text-align: right;
+  padding-right: 10px;
+  font-weight: 10%;
+  font-family: Hind Siliguri, sans-serif;
+  color: #a8a7a7;
+  font-size: 16px;
+  display: flex;
+}
+.soft-name {
+  text-align: right;
+  padding-right: 10px;
+  font-weight: 10%;
+  font-family: Hind Siliguri, sans-serif;
+  color: #a8a7a7;
+  font-size: 16px;
+  margin: 0px;
+  display: flex;
+}
+
+.lang-name {
+  padding-right: 10px;
+  font-weight: 10%;
+  font-family: Hind Siliguri, sans-serif;
+  color: #a8a7a7;
+  font-size: 16px;
+  margin: 0px;
+  display: flex;
+}
+
+.skill-bar {
+  background-color: #ccc;
+  flex-grow: 1;
+  height: 6px;
+  width: 70%;
+}
+.skill-level {
+  background-color: #504f4f;
+  height: 6px;
+  width: 70%;
+}
+
+.contact-info {
+  font-size: medium;
+  margin-bottom: 10px;
+  color: #737373;
+}
+.contact-info i {
+  width: 25px;
+  margin-right: 10px;
+}
+.contact-info .fas {
+  color: #737373;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.blue-part {
+  width: 55px;
+  height: 4px;
+  background-color: #0fb7f4;
+}
+.grey-part {
+  width: 100%;
+  height: 2px;
+  background-color: #d3d3d3;
+  margin-left: 0;
+}
+
+.left-heading1 {
+  color: #d3d3d3;
+  font-size: 20px;
+}
+
+.interest-icon {
+  text-align: center;
+  padding: 10px;
+}
+.icon {
+  font-size: 35px;
+}
+.interest-icon p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.line-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-line {
+  width: 35%;
+  height: 2px;
+  background-color: #a8a6a6;
+  border: none;
+  margin-top: 108px;
+}
